@@ -50,3 +50,15 @@ nav {
     font-size: 15vw;
     line-height: 90%;
 }
+
+.transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    pointer-events: none;
+}
