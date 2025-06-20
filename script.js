@@ -47,8 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     from: "start",
                     grid: [2, 5],
                     axis: "x",
-                }
-            })
-        })
+                },
+                ease: ease,
+                onComplete: resolve,
+            });
+        });
     }
 });
