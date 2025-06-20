@@ -62,3 +62,23 @@ nav {
     z-index: 2;
     pointer-events: none;
 }
+
+.transition-row {
+    flex: 1;
+    display: flex;
+}
+
+.transition-row.row-1 .block {
+    transform-origin: top;
+}
+
+.transition-row.row-2 .block {
+    transform-origin: bottom;
+}
+
+.block {
+    flex: 1;
+    background-color: #736df8;
+    transform: scaleY(1);
+    will-change: transform;
+}
