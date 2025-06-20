@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
         link.addEventListener("click", (event) => {
             event.preventDefault();
             const href = link.getAttribute("href");
+
+            if (href && !href.startsWith("#") && href !== window.location.pathname) {
+                animateTransition().then(() => {
+                    window.location.href = href;
+                });
+            }
         });
     });
 });
