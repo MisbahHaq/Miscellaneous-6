@@ -30,7 +30,25 @@ document.addEventListener("DOMContentLoaded", () => {
                     grid: "auto",
                     axis: "x",
                 },
+                ease: ease,
+                onComplete: resolve,
             });
         });
+    }
+
+    function animateTransition() {
+        return new Promise((resolve) => {
+            gsap.set(".block", { visibility: "visible", scaleY: 0 });
+            gsap.to(".block", {
+                scaleY: 1,
+                duration: 1,
+                stagger: {
+                    each: 0.1,
+                    from: "start",
+                    grid: [2, 5],
+                    axis: "x",
+                }
+            })
+        })
     }
 });
