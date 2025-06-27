@@ -1,14 +1,14 @@
 # Miscellaneous-6
 # ✨ Smooth Page Transition Effect
 
+
+
 This is a smooth and elegant page transition effect built with **HTML**, **CSS**, and **JavaScript**. Designed to enhance the user experience, the effect adds fluidity when navigating between different sections or pages of a website.
 
-## 🎬 Demo
-
-![transition demo](preview.gif)  
-_Optional: Add a GIF or link to live demo_
-
 ---
+
+https://github.com/user-attachments/assets/59c80219-4aad-4d95-88c2-2823604490f6
+
 
 ## 🚀 Features
 
