@@ -1,4 +1,3 @@
-# Miscellaneous-6
 # ✨ Smooth Page Transition Effect
 
 
